@@ -1,0 +1,13 @@
+train: /usr/src/ultralytics/ultralytics-main/ultralytics/RCD.v5i.yolov8/train/images
+val: /usr/src/ultralytics/ultralytics-main/ultralytics/RCD.v5i.yolov8/valid/images
+test: /usr/src/ultralytics/ultralytics-main/ultralytics/RCD.v5i.yolov8/test/images
+
+nc: 2
+names: ['Adesivo Longo', 'Adesivos']
+
+roboflow:
+  workspace: gabriel-barros-ijo0z
+  project: rcd-dl4ib
+  version: 5
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/gabriel-barros-ijo0z/rcd-dl4ib/dataset/5
